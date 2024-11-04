@@ -18,7 +18,7 @@ global.location = "Africa, Kenya, Nairobi"
 
 global.ownernumber = '254763023036'  //creator number
 global.ownername = '🕸️Lucifer' //owner name
-global.botname = 'Lucifer ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
+global.botname = 'Lucifer ˢᵘᵖᵉʳ ᵖᵒʷᵉʳ' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
@@ -35,12 +35,12 @@ global.link = 'https://whatsapp.com/channel/0029VarYE48Fcow7ghJ8153d'
 global.prefa = ['','!','.','#','&']
 
 //false=disable and true=enable
-global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoRecording = true //auto recording
+global.autoTyping = true //auto typing
 global.autorecordtype = true //auto typing + recording
-global.autoread = false //auto read messages
+global.autoread = true //auto read messages
 global.autobio = true //auto update bio
-global.anti92 = false //auto block +92 
+global.anti92 = true //auto block +92 
 global.autoswview = true //auto view status/story
 
 //menu type 
@@ -59,17 +59,17 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 //reply messages
 global.mess = {
     done: 'Done !',
-    prem: 'This feature can be used by Tech god or premium user only',
-    admin: 'This feature can be used by Tech god or admin only',
-    botAdmin: 'This feature can only be used when the bot is a group admin ',
-    owner: 'This feature can be used by Tech god or owner only',
+    prem: 'This feature can be used by 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 or premium user only',
+    admin: 'This feature can be used by 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 or admin only',
+    botAdmin: 'This feature can only be used when 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 is a group admin ',
+    owner: 'This feature can be used by 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 only',
     group: 'This feature is only for groups',
     private: 'This feature is only for private chats',
     wait: 'In process... ',    
     error: 'Error!',
 }
 
-global.thumb = fs.readFileSync('./XeonMedia/thumb.jpg')
+global.thumb = fs.readFileSync('./XeonMedia/thumb.jpeg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
