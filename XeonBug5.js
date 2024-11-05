@@ -648,7 +648,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: 'Broadcast By Lucifer',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png,
+                                thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
