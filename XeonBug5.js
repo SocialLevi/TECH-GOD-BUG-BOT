@@ -205,7 +205,7 @@ const subscribe_TechGod = {
 },
 message: {
 "listResponseMessage": {
-title: `TechGod's ur father`
+title: `Lucifer's your father`
 }}
 }
 async function XeonyCrashy(dgxeon,chat) {
@@ -648,7 +648,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: 'Broadcast By Lucifer',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://ibb.co/SQkdSYh',
+                                thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png,
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -956,7 +956,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://ibb.co/SQkdSYh',
+                            thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -978,7 +978,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://ibb.co/SQkdSYh',
+                            thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -998,7 +998,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `youtube Lucifer`,
-                            thumbnailUrl: 'https://ibb.co/SQkdSYh',
+                            thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1019,7 +1019,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} is on YouTube www.youtube.com/@lucifer`,
-                            thumbnailUrl: 'https://ibb.co/SQkdSYh',
+                            thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1349,7 +1349,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
                 if (!isCreator) return replygcxeon(mess.owner)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 254763023036`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -1991,7 +1991,7 @@ let res = await spam.requestRegistrationCode({
 phoneNumber: `+${fullNo}`,
 phoneNumberCountryCode: cCode,
 phoneNumberNationalNumber: number,
-phoneNumberMobileCountryCode: 724,
+phoneNumberMobileCountryCode: 254,
 })
 if (res.reason === 'temporarily_unavailable') {
 console.log(`Invalid Number (Possibility of Interrupted Registration): +${res.login}`)
@@ -2618,7 +2618,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://https://ibb.co/SQkdSYh',
+                                thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2636,7 +2636,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://ibb.co/SQkdSYh',
+      thumbnailUrl: 'https://i.ibb.co/qY5hk34/thumb.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
