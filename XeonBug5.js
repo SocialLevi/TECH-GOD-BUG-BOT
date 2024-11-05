@@ -1,9 +1,9 @@
-//base by Tech-God
+//base by Lucifer
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
-//GitHub: @techgod143
+//YouTube: @lucifer
+//Instagram: lucifer
+//Telegram: t.me/lucifer
+//GitHub: @lucifer
 //WhatsApp: +254704373621
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
 
@@ -126,10 +126,10 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
         const groupName = m.isGroup ? groupMetadata.subject : ''
         const participants = m.isGroup ? await groupMetadata.participants : ''
         const groupAdmins = m.isGroup ? await getGroupAdmins(participants) : ''
-        const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
-        const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
+        const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : true
+        const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : true
         const groupOwner = m.isGroup ? groupMetadata.owner : ''
-        const isGroupOwner = m.isGroup ? (groupOwner ? groupOwner : groupAdmins).includes(m.sender) : false
+        const isGroupOwner = m.isGroup ? (groupOwner ? groupOwner : groupAdmins).includes(m.sender) : true
         const isCreator = [ownernumber, ..._owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const isPremium = isCreator || isCreator || checkPremiumUser(m.sender, premium);
         expiredCheck(XeonBotInc, m, premium);
@@ -148,7 +148,7 @@ isForwarded: true,
 "body": `${ownername}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": fs.readFileSync(`./XeonMedia/thumb.jpg`),
+"thumbnail": fs.readFileSync(`./XeonMedia/thumb.jpeg`),
 "sourceUrl": `${link}`}}},
 { quoted: m})
 }
@@ -222,10 +222,10 @@ async function loading () {
 var xeonlod = [
 "《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
-"《 ███████▒▒Tech-God▒▒▒》50%",
+"《 ███████▒▒Lucifer▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🐛..."
+"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🕸️..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -262,7 +262,7 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`24/7 Online Bot. *Youtube search- Tech God* user ${ownername}`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`Lucifer. *Youtube search- Lucifer* user ${ownername}`).catch(_ => _)
         }
         if (m.sender.startsWith('92') && global.anti92 === true) {
             return XeonBotInc.updateBlockStatus(m.sender, 'block')
@@ -650,7 +650,7 @@ senddocu(buffer)
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: 'Broadcast By Tech God',
+                                title: 'Broadcast By Lucifer',
                                 body: `Sent ${i.length} Group`,
                                 thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
                                 sourceUrl: global.link,
@@ -974,7 +974,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with the Tech God wa.me/917466008456 😉`
+                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with the Tech God wa.me/254714091722 😉`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1047,7 +1047,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Lucifer created me🤟`, mentions: [sender]}, { quoted: repf })
 }
 break
             case 'sticker':
@@ -1816,7 +1816,7 @@ if (!isPremium) return replygcxeon(mess.prem)
 if (!m.quoted) return replygcxeon(`Example usage: ${prefix + command} reply chat`)
 await XeonBotInc.sendMessage(m.chat, { text: 'Success In Sending Bug', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363222395675670@newsletter', newsletterName: `${ownername}`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
 await sleep(2000)
-await XeonBotInc.sendMessage(m.chat, { react: { text: '🐛', key: { remoteJid: m.chat, fromMe: true, id: quoted.id } } })
+await XeonBotInc.sendMessage(m.chat, { react: { text: '🕸️', key: { remoteJid: m.chat, fromMe: true, id: quoted.id } } })
 }
 break
 case 'x2': {
@@ -2471,14 +2471,14 @@ break
             case 'menu':
             case 'help':
             case 'alive':
-                let xeonmenuoh = `╭══ *❍ 𝗧𝗘𝗖𝗛_𝗚𝗢𝗗-BUG_BOT ❍*
-┃❁ *ᴏᴡɴᴇʀ:* ᴛᴇᴄʜ ○■□● ɢᴏᴅ
+                let xeonmenuoh = `╭══ *❍ 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 𝐒𝐮𝐩𝐞𝐫 𝐏𝐨𝐰𝐞𝐫 ❍*
+┃❁ *ᴏᴡɴᴇʀ:* LUCIFER
 ┃❁ *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
 ┃❁ *User:* ${pushname}
-╰┈➤ ${xeonytimewisher} 😄  My bro
+╰┈➤ ${xeonytimewisher} 🕸️  Hello!
 ⚠️⚠️ ~Don't forget to subscribe~ 
-*Tech god* ~Youtube Channel~ ⚠️⚠️
-_Any help: yt link http://www.youtube.com/@techgod143_
+*Lucider* ~Youtube Channel~ ⚠️⚠️
+_Any help: yt link http://www.youtube.com/@lucifer
 ╰═════════════════⊷
 ╭═══❂ 𝗕𝗨𝗚 𝗠𝗘𝗡𝗨 ❂
 ┃ ❏ *xʀᴇᴀᴄᴛ <ʀᴇᴘʟʏ ᴄʜᴀᴛ>*
@@ -2563,7 +2563,7 @@ _Any help: yt link http://www.youtube.com/@techgod143_
 ┃ ❏ *ᴍᴇɴᴜ*
 ┃ ❏ *ʜᴇʟᴘ*
 ┃ ❏ *ʟɪsᴛ*
-┃ ❏ *ʙᴜʏᴘʀᴇᴍɪᴜᴍ +917466008456*
+┃ ❏ *ʙᴜʏᴘʀᴇᴍɪᴜᴍ +254763023036*
 ┃ ❏ *ʀᴜɴᴛɪᴍᴇ*
 ┃ ❏ *sᴄʀɪᴘᴛ*
 ┃ ❏ *ᴅᴏɴᴀᴛᴇ*
